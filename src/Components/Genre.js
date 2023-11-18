@@ -6,9 +6,10 @@ export default function Genre( { name, description, movieTitle1, movieTitle2 }) 
     <div className={style.card}>
         <h2>{ name }</h2>
         <p>{ description } </p>
+        <hr />
         <h3>Recommended Movies</h3>
-        <h4>{ movieTitle1 }</h4>
-        <h4>{ movieTitle2 }</h4>
+        <p>{ movieTitle1 }</p>
+        <p>{ movieTitle2 }</p>
     </div>
   )
 }

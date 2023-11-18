@@ -1,11 +1,11 @@
-body {
-    background-color: aliceblue;
-    text-align: center;
-}
 
 .card {
     border: solid 1px black;
     margin: 20px auto;
     width: 40%;
     padding: 10px 20px;
+}
+
+.header {
+    margin-bottom: 50px;
 }
